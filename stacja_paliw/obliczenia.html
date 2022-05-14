@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Stacja paliw</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <div class="baner-lewy">
+		<h1>Stacja paliw</h1>
+    </div>
+    <div class="baner-prawy">
+		<a href="stacja.html"><img src="home.png"></a>
+		<a href="obliczenia.html"><img src="znak.png"></a>
+    </div>
+    <div class="glowny">
+		<h3>Godziny otwarcia stacji paliw</h3>
+            <label for="rodzaj">Rodzaj paliwa (1-benzyna, 2-olej napędowy): </label><br>
+            <input type="number" name="rodzaj" id="rodzaj"> </input>
+            <br>
+            <label for="litry">Ile litrów</label><br>
+            <input type="number" name="litry" id="litry"> </input>
+            <br>
+		    <button onclick="myFunction()">OBLICZ</button><br>
+			<span id="wynik"></span>
+			<script>
+				function myFunction() {
+				var x = document.getElementById("rodzaj").value;
+				var y = document.getElementById("litry").value;
+				if(x==1)
+				wynik=4*y;
+				else if(x==2)
+				wynik=3.5*y;
+				else
+				wynik=0;
+				document.getElementById("wynik").innerHTML = "koszt paliwa: "+wynik+" zł";
+				}
+			</script>
+    </div>
+	<div class="lewy"> 
+		<a href="kwerendy.txt">Pobierz kwerendy</a>
+    </div>
+	<div class="prawy">
+		<img src="samochod.png" alt="samochód">
+    </div>
+     <div class="stopka">
+	 <p>Stronę przygotował: 02261000579</p>
+     </div>
+</body>
+</html>

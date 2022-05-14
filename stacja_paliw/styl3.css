@@ -1,0 +1,60 @@
+body{
+	font-family:Helvetica;
+}
+.baner-lewy{
+	background-color:rgb(130,69,85);
+	color:white;
+	width:30%;
+	height:200px;
+	text-align:center;
+	float:left;
+}
+.lewy{
+	background-color:rgb(130,69,85);
+	color:white;
+	width:30%;
+	height:200px;
+	text-align:center;
+	float:left;
+}
+.baner-prawy{
+	background-color:rgb(130,69,85);
+	color:white;
+	width:70%;
+	height:200px;
+	text-align:center;
+	float:left;
+}
+.prawy{
+	background-color:rgb(130,69,85);
+	color:white;
+	width:70%;
+	height:200px;
+	text-align:center;
+	float:left;
+}
+.glowny{
+	background-color:rgb(240,234,226);
+	padding:120px;
+}
+.stopka{
+	background-color:rgb(240,234,226);
+	padding:120px;
+}
+table{
+	border-width:1px;
+	border-style:solid;
+	border-color:rgb(130,69,85);
+	color:rgb(130,69,85);
+	padding:10px;
+}
+td{
+	border-width:1px;
+	border-style:solid;
+	border-color:rgb(130,69,85);
+	color:rgb(130,69,85);
+	padding:10px;
+}
+a{
+	color:rgb(240,234,226);
+}
